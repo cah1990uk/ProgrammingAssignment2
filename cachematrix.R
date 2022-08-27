@@ -4,6 +4,8 @@
 
 ## Write a short comment describing this function
 #This function creates the special matrix
+# The assignment operator "<<-" ensures values persist after the function call
+# and are available later via the parent environment.
 
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
